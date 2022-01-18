@@ -13,14 +13,16 @@ const GithubProfileCard = ({ prof }) => {
 					<Row className="">
 						<Col className="order-lg-2" lg="4">
 							<img
-								src={prof.avatar_url}
-								style={{ width: "200px" }}
+								// src={prof.avatar_url}
+								src={'/img/icons/common/contact_us.svg'}
+								style={{ width: "300px" }}
 								alt=""
-								className="rounded-circle img-center img-fluid shadow shadow-lg--hover mb-4"
+								// className="rounded-circle img-center img-fluid shadow shadow-lg--hover mb-4"
+								className="img-center mb-4"
 							/>
 						</Col>
 						<Col lg="8" className="order-lg-1">
-							<h2 className="text-white">Reach Out to me!</h2>
+							{/* <h2 className="text-white">Reach Out to me!</h2>
 							<p className="lead text-white mt-3">
 								DISCUSS A PROJECT OR JUST WANT TO SAY HI? MY
 								INBOX IS OPEN FOR ALL
@@ -31,8 +33,9 @@ const GithubProfileCard = ({ prof }) => {
 								{prof.location}
 							</div>
 							<br />
-							<br />
-							<SocialLinks />
+							<br /> */}
+							<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdfVhAPXnNDMDIH8x7mWJO_xm4NKsotbJt6nFsUFpWcyaCXEA/viewform?embedded=true" width="100%" height="800" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+							{/* <SocialLinks /> */}
 						</Col>
 					</Row>
 				</div>
